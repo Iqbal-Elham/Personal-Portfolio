@@ -1,0 +1,282 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    border-left: 1px solid #E6ECF8;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #7510F7;
+}
+ul,li
+{
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 20px; 
+}
+header a
+{
+    text-decoration: none;
+    color: white;
+}
+#navbar
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+   padding: 7px;
+    
+}
+
+header
+{
+    background-color: rgb(31, 29, 29,0.9);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+#welcome-section
+{   
+    height: 100vh;
+    width: 100%;
+    background-image: url(Iqbal.JPG);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#welcome-h h1
+{   
+    text-align: center;
+    color: #ffffff;
+    font-size: 38px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+
+}
+#welcome-h p
+{   
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 28px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+}
+#about
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #7510F7;  */
+    
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+}
+#hi
+{
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+#info
+{
+    margin: 20px 60px 0px 60px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;  
+}
+#button
+{   font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #7510F7;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline-style: none;
+}
+#button-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#button:hover
+{
+    box-shadow: 10px 20px 20px #39136b;
+    background-color: #7510F7 ;
+    color: white;
+}
+#project-head
+{
+    background-color: #303841;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+    background-color: #303841;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#recent
+{
+    
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px ;
+    color: white;
+}
+#recent-link
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: "eurostile", sans-serif;
+    color: white;
+}
+#recent-link a
+{
+    text-decoration: none;
+    font-family: cursive;
+    color: #7510F7;
+}
+.project-tile
+{
+    text-align: center;
+    background: #3273dc;
+    display: grid;
+    margin: 10px;
+    border-radius: 20px;
+}
+.img-style
+{   
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.project-tile a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:serif;
+}
+#contact
+{   
+    height: 105vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    padding-top: 40px;
+    padding-bottom: 20px;
+   
+
+}
+#contact-head
+{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    margin: 60px;
+    margin-top: 0px;
+ 
+}
+#address
+{
+    margin-left: 30px;
+    font-size: 22px;
+    color: white;
+    font-family: monospace;
+}
+#address i
+{
+    margin-bottom: 20px;
+}
+#message
+{
+    margin: 20px;
+    
+
+}
+.text
+{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 98%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    outline-style: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#text-msg
+{
+    height: 80px;
+    padding-top: 20px;
+}
+#footer
+{ 
+    height: 60vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #202c58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#together
+{
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    margin-bottom: 25px;
+    
+}
+#footer i 
+{
+    margin-right: 38px;
+    color: white;
+}
+#designed
+{
+    height: 80px;
+    width: 100%;
+    background-color: #10162c;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#name
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 14px;
+   font-family: sans-serif;
+}
+

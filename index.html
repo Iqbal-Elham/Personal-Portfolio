@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    @media only screen and (max-width: 768px) {
+
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="stylesheet" href="Styles/all.min.css">
+    <title>Iqba Elham</title>
 </head>
+
 <body>
-    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project-head">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome-section">
+        <div id="welcome-h">
+
+            <h1>Designer, Front-end Developer & Software Engineer</h1>
+
+            <p>I design and code beautifully simple things, and I love what I do.</p>
+        </div>
+    </section>
+    <section id="about">
+        <div id="hi">
+            <p>Hi, I’m Iqbal. Nice to meet you.</p>
+        </div>
+        <div id="info">
+            <p>Curiousity and passion about science, technology and computer helped me to develop very well
+                in
+                these areas.
+                I am a 3rd year student of computer science and developed well in managing operating system, C++
+                programming
+                language, java programming language, web designing (HTML, CSS, JAVA script) and Android Developing using
+                Kotiln. <br>
+                I have participated in many social events and conferences that improved my leadership, public speaking,
+                team
+                work and communication skills.
+                My passion is to achieve pursuing role in my career, social development, communication and capacity
+                building.
+            </p>
+            <div id=button-div>
+                <a href="Styles/Mohammad Iqbal Elham.pdf" download="Iqbal Elham Resume" target="_blank">
+                    <input type="button" value="Download Resume" id="button">
+                </a>
+            </div>
+        </div>
+    </section>
+    <div id="project-head">
+
+        <p id="recent">My Recent Works</p>
+        <p id="recent-link">Here are a few design projects I've worked on recently. Want to see more? <a href="#">Email
+                me.</a> </p>
+
+        <section id="projects">
+
+            <div class="project-tile">
+                <a href="https://github.com/Iqbal-Elham/Web-Projects" target="_blank"><img class="img-style"
+                        src="Styles/tribute.PNG" alt="">Tribute Page</a>
+            </div>
+            <div class="project-tile">
+                <a href="https://github.com/Iqbal-Elham/Survey-Form1/tree/survey-f" target="_blank"><img
+                        class="img-style" src="Styles/survey.PNG" alt=""> Survey Form</a>
+            </div>
+            <div class="project-tile">
+                <a href="#" target="_blank"><img class="img-style" src="Styles/Dukan.PNG" alt=""> Dukan.com</a>
+            </div>
+            <div class="project-tile">
+                <a href="https://github.com/Iqbal-Elham/Technical-Documentation/tree/features" target="_blank"><img
+                        class="img-style" src="Styles/Documentation.PNG" alt=""> JavaScript Documentation</a>
+            </div>
+            <div class="project-tile">
+                <a href="https://github.com/Iqbal-Elham/Blood-Bank-Management" target="_blank"><img class="img-style"
+                        src="Styles/BloodBank.PNG" alt=""> BloodBank</a>
+            </div>
+            <div class="project-tile">
+                <a href="https://github.com/Iqbal-Elham/Library-Management-System" target="_blank"><img
+                        class="img-style" src="Styles/library.PNG" alt=""> Library Management system</a>
+            </div>
+        </section>
+    </div>
+    <section id="contact">
+        <div id="contact-head">
+            <p style="font-size: 36px;">Contact</p>
+            <p style="font-size: 20px; margin-top: 20px;">Let's get in touch. Send us a message</p>
+        </div>
+        <div id="address">
+            <i class="fas fa-phone"> Phone: +93744260004</i><br>
+            <i class="fas fa-envelope"> Email: iqbal.elham7@gmail.com</i><br>
+            <i class="fas fa-map-marker-alt"> Kabul, Afghanistan</i>
+        </div>
+        <form action="#contact" id="message">
+            <input type="text" class="text" placeholder="Name"><br>
+            <input type="email" class="text" placeholder="Email"><br>
+            <input type="text" class="text" placeholder="Subject"><br>
+            <textarea name="" id="text-msg" cols="30" rows="10" placeholder="Message" class="text"></textarea>
+            <div id="button-div">
+                <input type="submit" value="Send Message" id="button">
+            </div>
+        </form>
+    </section>
+    <footer id="footer">
+        <ul>
+            <li>
+                <p id="together">Let's work together...</p>
+            </li>
+            <li>
+                <div class="icons">
+                    <a href="" class="profile-link"> <i class="fab  fa-facebook"> iqbal.elh</i></a>
+                    <a href="https://github.com/Iqbal-Elham" target="_blank" id="profile-link"><i class="fab fa-github">
+                            Iqbal-Elham</i></a>
+                    <a href="" class="profile-link"><i class="fab fa-linkedin"> Iqbal Elham</i></a>
+                    <a href="" class="profile-link"> <i class="fas fa-mobile-alt"> +93 744 26 0004</i></a>
+                </div>
+            </li>
+        </ul>
+
+    </footer>
+    <div id="designed">
+
+        <p id="name">Designed By: Iqbal Elham</p>
+        <p id="name">© Fonticons, Inc. Terms and Privacy</p>
+    </div>
 </body>
+
 </html>
